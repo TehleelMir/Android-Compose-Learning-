@@ -180,7 +180,7 @@ fun BottomNavigationPreview() {
     MySootheTheme { SootheBottomNavigation(Modifier.padding(top = 24.dp)) }
 }
 
-@Preview(widthDp = 360, heightDp = 640)
+@Preview(widthDp = 360, heightDp = 640, showBackground = true)
 @Composable
 fun MySoothePreview() {
     MySootheApp()
